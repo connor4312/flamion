@@ -1,0 +1,25 @@
+{
+    "name": "flamion/reactorapi",
+    "description": "Reactor communication interface for Flamion",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Connor Peet",
+            "email": "connor@connorpeet.com"
+        },
+        {
+            "name": "Host-Seed",
+            "email": "support@host-seed.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Flamion\\Reactorapi": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
