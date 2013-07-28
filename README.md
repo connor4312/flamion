@@ -1,62 +1,24 @@
 Flamion
 =========
 
-Flamion is the Minecraft panel to rule them all. It has unmatched administrative and user-end powers.
+The MIT License (MIT)
 
-Components
--
-- The Control panel
- - HTML
- - CSS via LESS with Bootstrap
- - Javascript with jQuery and Bootstrap
- - PHP with Laravel
- - MySQL via the Laravel Query Builder and Eloquent ORM
-- The Reactor
- -  Python  
-- Licensing Sever
- - Javascript via Node.js
+Copyright (c) 2013 Connor Peet
 
-Developers
------------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- Lead Developer: Connor Peet
-- Backend Developer: Jeffrey Angenent
-- Backend Developer: **open**
-- Reactor (Python) Developer: Tom Barker
-- Android Mobile Developer: Zack Pollard
-- iOS Mobile Developer: Jeffrey Angenent
-- Frontend Developer: Alex Bandtock
-- Frotent Developer: Branden Gammon
-- Frontend Developer: **open**
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-Dev Tools (Recommended)
---------------
-- SublimeText or your favorite code editor
-- FileZilla or similar FTP client
-- SourceTree, unless you love the command line
-- Chrome, or Firefox with Firebug
-
-Who to Talk to
-==
-If you have any questions at all, ask in the Skype group. If you are not in the Skype group, add connor4312.
-
-What to Do
-==
-Any cards assignd to you in our Jira, go to ferrous.atlassian.net then Agile > Flamion. If you don't yet have an account, ask in Skype.
-
-Editing Stuff
-=========
-In General
----
-For each feature/page you work, on... cut a branch. Edit, upload to the FTP server, debug, make sure whatever you edited it's working. After it works, commit. Repeat until the page is done; you should commit about every 15-45 minutes. After the page or feature is done and polished, submit a pull request. Your code will be reviewed by the Lead Developer or a Backend Developer. *(note: even if you are one of these people, it is recommended to have another person review your changes if possible)*. If it's good, it'll be merged. If not, you'll get comments on things to fix.
-
-LESS/CSS
----
-You **don't** need to have a LESS compiler on your system, in fact we recommend that you don't use one, even if you have one. We already have a PHP LESS compiler in the control panel. After you edit some CSS (in `app/storage/less`) upload it to FTP, go to the Panel > Panel Options > Advanced > Compile LESS. This will automagically update the CSS and compile for you.
-
-Unit Testing
----
-If you want to unit test, fine, if not, don't. Not strictly TDD at the moment.
-  
-
-    
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
